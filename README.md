@@ -14,9 +14,9 @@ Langchain inbuilt arXiv is an open-access archive for 2 million scholarly articl
 ### Custom Web based tool.
 We will use a custom web page from LangChain documentation to add into our pipeline. We will use WebBaseLoader to ingest data from the web, then perform techniques like Chunking and Embeddings to create our app.
 - #### Chunking.
-- We used RecursiveCharacterTextSplitter to create chunks or our text.
+  We used RecursiveCharacterTextSplitter to create chunks or our text.
 - #### Embeddings.
-- We will use OllamaEmbeddings to convert chunks into vector embeddings the store those vectors in a vector store called FAISS vector Db.
+  We will use OllamaEmbeddings to convert chunks into vector embeddings the store those vectors in a vector store called FAISS vector Db.
 
 ### Using agents
 This is an agent specifically optimized for doing retrieval when necessary and also holding a conversation.
